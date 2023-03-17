@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
-* {
+html {
     font-family: 'Inter', sans-serif;
 }
 
 header {
     font-size: large;
     font-weight: 400;
+}
+
+code {
+	font-family: 'Fira Code', monospace;
 }
 
 body {

@@ -1,0 +1,48 @@
+<html>
+	<title>Vim Configuration</title>
+	<link rel="stylesheet" href="style.css">
+
+	<body>
+		<header>
+			cerofour's web page
+		</header>
+<h1 id="Requirements">Requirements</h1>
+
+<ul>
+<li>NeoVim</li>
+<li><a href="https://github.com/junegunn/vim-plug">VimPlug</a></li>
+</ul>
+
+<h1 id="init.vim">init.vim</h1>
+
+<h2 id="Transparent%20Background">Transparent Background</h2>
+
+<pre><code class="language-vimscript">syntax on
+colorscheme
+hi NonText ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
+hi NormalNC guibg=NONE ctermbg=NONE
+hi EndOFBuffer guibg=NONE ctermbg=NONE
+</code></pre>
+
+<h2 id="Plugins">Plugins</h2>
+
+<pre><code class="language-vimscript">Plug &#39;junegunn&#47;fzf&#39;
+Plug &#39;sainnhe&#47;everforest&#39;
+</code></pre>
+
+<h2 id="Mappings">Mappings</h2>
+
+<pre><code class="language-vimscript">let mapleader = &#39; &#39;
+map mm :w&#60;CR&#62;
+map &#60;leader&#62;. :FZF&#60;CR&#62;
+map &#60;leader&#62;w &#60;C-w&#62;
+</code></pre>
+</body>
+<footer>
+    <p>Powered by <a target="_blank" href="https://romanzolotarev.com/ssg.html">ssg</a></p>
+    <p>Contact Information</p>
+    <p>e-mail: llacsahuanga.buques@gmail.com</p>
+    <p><a target="_blank" href="https://github.com/cerofour">github profile</a></p>
+</footer>
+</html>

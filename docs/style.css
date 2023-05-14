@@ -17,8 +17,9 @@ a:hover {
 }
 
 * {
-	margin: 0px;
+	/* margin: 0px;
 	padding: 0px;
+	*/
 	box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 	/* border: 1px solid red; */
@@ -29,7 +30,6 @@ code {
 }
 
 .navbar-container {
-	margin: 50px 0;
 	display: flex;
 	justify-content: center;
 }
@@ -49,33 +49,36 @@ code {
 	margin-right: auto;
 }
 
-.content-container {
+.menu-container {
 	display: flex;
 	justify-content: center;
 }
 
-.content {
+.menu {
 	display: flex;
 	width: 80%;
-	justify-content: space-between;
 }
 
-.content div {
+.menu div {
 	width: 100%;
-}
-
-.content p {
-	margin-bottom: 8px;
 }
 
 .projects-container {
 	margin-right: 10px;
 }
 
-.footer-container ul {
-	list-style: none;
+.content {
+	width: 80%;
+	margin: auto;
+}
+
+.content {
+	box-sizing: content-box;
+	padding: auto;
+	margin: auto;
 }
 
 .footer-list {
+	list-style: none;
 	text-align: center;
 }
